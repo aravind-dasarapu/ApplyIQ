@@ -1,4 +1,4 @@
-# HireReady
+# ApplyIQ
 
 I built this because preparing a job application properly takes forever. Not the applying part — the part before that. Reading the JD carefully, figuring out where your resume actually matches and where it doesn't, identifying what you'd need to learn before you'd be competitive, and then writing a cover letter that isn't generic. Done right, that's 2-3 hours per application. I wanted to automate it.
 
