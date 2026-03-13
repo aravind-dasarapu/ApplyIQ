@@ -1,0 +1,25 @@
+# Shreya | AI & ML Developer
+
+**Email:** shreya.dev@email.com | **Location:** Hyderabad, India
+**GitHub:** github.com/shreya-dev | **LinkedIn:** linkedin.com/in/shreya-dev
+
+### Professional Summary
+Aspiring AI/ML Developer with a B.Tech degree and hands-on experience in building deep learning models for time-series forecasting. Proven track record in web scraping automation and deploying models via containerized environments.
+
+### Technical Skills
+* **Languages:** Python, SQL.
+* **Libraries:** TensorFlow, Keras, Pandas, Scikit-Learn.
+* **Web Scraping:** Playwright, BeautifulSoup.
+* **DevOps/Tools:** Docker, FastAPI, Git, Linux, VS Code.
+
+### Projects
+**MacroNet-USDINR Forecasting** * Developed a hybrid CNN-LSTM architecture for USD/INR currency prediction.
+* Achieved 56% directional accuracy using historical exchange rate data.
+* Handled data preprocessing and feature engineering for time-series lags.
+
+**E-commerce Data Pipeline** (Internship)
+* Built robust Python scripts using Playwright to scrape product details from multi-region platforms.
+* Automated data cleaning tasks, reducing manual processing time by 40%.
+
+### Education
+* **B.Tech in Computer Science** Graduated: 2026

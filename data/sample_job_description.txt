@@ -1,0 +1,20 @@
+# Job Description: Senior ML Engineer - Fintech Solutions
+
+**Company:** QuantFlow Systems
+**Industry:** Financial Technology / Streaming Data
+
+### Role Overview
+We are looking for a Senior ML Engineer to architect high-frequency trading signal models and build RAG-based systems for financial news extraction.
+
+### Core Requirements
+* **Production-Grade LLMs:** Experience fine-tuning Llama-3 or Mistral for domain-specific tasks.
+* **Vector Databases:** Expert-level knowledge of **Weaviate** or **Milvus** for high-performance RAG pipelines.
+* **Stream Processing:** Proven experience with **Apache Kafka** or **Flink** for real-time feature engineering.
+* **Cloud & MLOps:** Hands-on experience with **Kubernetes (K8s)**, **GitHub Actions** for CI/CD, and **AWS SageMaker**.
+* **Advanced Mathematics:** Strong background in Bayesian statistics and Reinforcement Learning (RL).
+
+### Technical Stack
+* Python (Cython/PyPy preferred for performance).
+* PyTorch, Ray, HuggingFace Transformers.
+* PostgreSQL, Redis, Weaviate.
+* AWS, Docker, Kubernetes, Terraform.

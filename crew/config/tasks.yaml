@@ -1,0 +1,95 @@
+resume_analysis_task:
+  description: >
+    Analyze the following resume and produce a structured summary.
+
+    RESUME CONTENT:
+    {resume_context}
+
+    Your analysis must include:
+    1. Technical Skills — programming languages, tools, frameworks, platforms
+    2. Soft Skills — communication, leadership, teamwork (inferred from experience)
+    3. Years of Experience — total, and by domain if possible
+    4. Education — degrees, certifications, relevant courses
+    5. Key Achievements — quantified accomplishments if present
+    6. Career Level — junior / mid / senior based on evidence
+    7. Domain Expertise — primary industry or technical domain
+  expected_output: >
+    A structured markdown report with all 7 sections clearly labeled.
+    Use bullet points. Do not fabricate information not in the resume.
+
+jd_analysis_task:
+  description: >
+    Analyze the following job description and extract all requirements.
+
+    JOB DESCRIPTION:
+    {job_description}
+
+    Your analysis must include:
+    1. Job Title and Level — exact title and seniority level
+    2. Must-Have Technical Skills — non-negotiable hard skills
+    3. Nice-to-Have Skills — preferred but not required
+    4. Required Experience — years, type, domain
+    5. Educational Requirements — degree requirements if any
+    6. Soft Skills Expected — collaboration, communication, etc.
+    7. Tools and Technologies — specific platforms, languages, frameworks
+    8. Responsibilities — what the person will actually do day-to-day
+    9. Company Culture Hints — fast-paced, startup, enterprise, etc.
+  expected_output: >
+    A structured markdown report with all 9 sections clearly labeled.
+    Separate must-haves from nice-to-haves explicitly.
+
+gap_analysis_task:
+  description: >
+    Using the resume analysis and job description analysis provided in context,
+    perform a thorough gap analysis.
+
+    Your output must include:
+    1. Match Score — rough percentage (0-100%) with brief justification
+    2. Strong Matches — skills/experience the candidate has that the job needs
+    3. Critical Gaps — must-have requirements the candidate is missing
+    4. Partial Matches — related but not exact experience that can be reframed
+    5. Transferable Strengths — valuable things not explicitly asked for
+    6. Priority Action Items — top 3 things to do before applying
+  expected_output: >
+    A structured gap analysis in markdown with a match score and justification.
+    Be honest about critical gaps. Prioritise action items by impact.
+
+skills_advice_task:
+  description: >
+    Based on the gap analysis provided in context, create a personalised
+    learning plan. ALL resources must be 100% free (or free to audit).
+
+    Your plan must include:
+    1. Current Market Trends (2025) — in-demand skills for this domain
+    2. Priority Skills to Learn — ranked by impact for this specific job
+    3. Free Learning Roadmap — specific resource names, URLs, modules, time estimates
+    4. Quick Wins (under 1 week) — things that strengthen the application immediately
+    5. 30-Day Learning Sprint — week-by-week plan assuming 1-2 hours per day
+    6. Portfolio Project Idea — one project that demonstrates multiple gap skills
+  expected_output: >
+    A detailed learning plan in markdown. Every resource must be free and
+    specifically named with a URL where possible.
+    Include a 30-day sprint with a clear week-by-week breakdown.
+
+cover_letter_task:
+  description: >
+    Write a tailored, compelling cover letter for this job application.
+    Use the resume analysis, job description analysis, and gap analysis in context.
+
+    Requirements:
+    1. Length: 3 paragraphs, 300-400 words (one page max)
+    2. Tone: professional but warm, confident but not arrogant
+    3. Opening: hook showing you understand the company — NOT "I am writing to apply"
+    4. Paragraph 1 (Hook + Value Prop): grab attention, state the role, lead with strongest match
+    5. Paragraph 2 (Evidence): 2-3 specific experiences matching key requirements,
+       mirror JD keywords for ATS, address notable gaps briefly and confidently
+    6. Paragraph 3 (Closing): genuine interest in THIS role, clear call to action
+    7. Format: proper letter format with date, greeting, body, and sign-off
+
+    AVOID these cliches:
+    "I am a fast learner", "I am passionate about", "I am a team player",
+    "I would be a great fit", any bracket placeholders like [Company Name]
+  expected_output: >
+    A complete, ready-to-send cover letter in proper letter format.
+    300-400 words. No placeholder brackets. No cliches.
+    Tailored specifically to this job and candidate.
